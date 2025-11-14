@@ -56,6 +56,8 @@ Metinsel boşluklar → "Unknown" değeri ile dolduruldu
 
 # 📊 Aşama 2: Keşifsel Veri Analizi (EDA)
 
+<img width="1282" height="712" alt="Ekran görüntüsü 2025-11-15 005539" src="https://github.com/user-attachments/assets/e6d2da0f-a9d0-443b-ad18-96a1e62a4a40" />
+
 Bu bölümde:
 
 data.describe().T ile özet istatistikler çıkarıldı
@@ -70,34 +72,8 @@ data.info() ile genel yapı kontrol edildi
 
 <img width="960" height="747" alt="Ekran görüntüsü 2025-11-15 004200" src="https://github.com/user-attachments/assets/0e84c681-9291-464b-8c68-46a431b0d44b" />
 
-🎯 1. IMDb Puan Dağılımı Histogram
-plt.figure(figsize=(10, 6))
-plt.hist(data['imdbRating'].dropna(), bins=30, color='skyblue', edgecolor='black')
-plt.title('IMDb Puanlarının Dağılımı (Histogram)')
-plt.xlabel('IMDb Puanı')
-plt.ylabel('Film Sayısı (Frekans)')
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.show()
-
-🚀 Nasıl Çalıştırılır?
-
-Depoyu klonlayın:
-
-git clone <repo-url>
 
 
-Gerekli kütüphaneleri yükleyin:
-
-pip install pandas numpy matplotlib
+<img width="1130" height="691" alt="Ekran görüntüsü 2025-11-15 005530" src="https://github.com/user-attachments/assets/faa088dc-2b7d-4f25-888d-db22dda2f5dc" />
 
 
-Python dosyasını çalıştırın:
-
-python yzt.py
-
-
-movies_initial.csv dosyasının aynı klasörde olduğundan emin olun.
-
-📘 Lisans
-
-Bu proje eğitim amaçlıdır ve serbestçe kullanılabilir.
