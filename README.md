@@ -79,16 +79,15 @@ data.info() ile genel yapı kontrol edildi
 # Kullanım
 Depoyu klonlayın:
 
-git clone <repo-url>
+## git clone <repo-url>
 
 Gerekli kütüphaneleri yükleyin:
 
-pip install pandas numpy matplotlib
+## pip install pandas numpy matplotlib
 
 Python dosyasını herhangi bir IDE kullanarak çalıştırın.
 
-python3 yzt.py
-
+## python3 yzt.py
 
 
 
