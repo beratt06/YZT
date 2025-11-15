@@ -76,4 +76,19 @@ data.info() ile genel yapı kontrol edildi
 
 <img width="1130" height="691" alt="Ekran görüntüsü 2025-11-15 005530" src="https://github.com/user-attachments/assets/faa088dc-2b7d-4f25-888d-db22dda2f5dc" />
 
+# Kullanım
+Depoyu klonlayın:
+
+git clone <repo-url>
+
+Gerekli kütüphaneleri yükleyin:
+
+pip install pandas numpy matplotlib
+
+Python dosyasını herhangi bir IDE kullanarak çalıştırın.
+
+python3 yzt.py
+
+
+
 
